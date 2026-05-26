@@ -1,9 +1,7 @@
 {
-  "name": "Ubuntu Blueprint Devcontainer",
+  "name": "Python Devcontainer",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-  "build": {
-    "dockerfile": "ubuntu.dockerfile"
-  },
+  "image": "mcr.microsoft.com/devcontainers/python:3-bullseye",
 
   "customizations": {
 		// Configure properties specific to VS Code.
